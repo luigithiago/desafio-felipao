@@ -1,4 +1,4 @@
-let nomeHeroi =  "Fulepo"
+nomeHeroi =  "Fulepo"
 let nivelHeroi = 8009
 let nivel
 
@@ -12,10 +12,10 @@ if(nivelHeroi < 1000){
 	nivel = "Ouro"
 }else if(nivelHeroi >= 7001 && nivelHeroi <= 8000){
 	nivel = "Platina"
-}else if(nivelHeroi >= 9001 && nivelHeroi <= 10000){
+}else if(nivelHeroi >= 8001 && nivelHeroi <= 10000){
 	nivel = "Ascendente"
 }else{
 	nivel = "Radiante"
 }
 
-console.log("O Herói de nome " + nomeHeroi[3] + " está no nível " +  nivel)
+console.log("O Herói de nome " + nomeHeroi + " está no nível " +  nivel)
